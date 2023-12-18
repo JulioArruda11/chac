@@ -73,7 +73,7 @@ header > nav{
 nav > a{
     text-decoration: none;
     background-color: var(--cor5);
-    color: var(--cor3);
+    color: yellow;
     border-radius: 25px 60px;
     padding: 5px 10px 5px 10px;
     font-family: var(--fontTit);
@@ -148,3 +148,6 @@ div > img {
     border-radius: 10px;
 }
 
+div > iframe{
+    max-width: 100%;
+}
