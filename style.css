@@ -49,6 +49,7 @@ body{
 
 header{
     padding-top: 15px;
+    padding-bottom: 15px;
     background-image: url(imagens/fogr2.jpg);
     background-repeat: no-repeat;
     background-position: center center;
@@ -58,7 +59,7 @@ header{
 
 header > h1 {
     text-align: center;
-    font-size: 4em;
+    font-size: 4.5em;
     text-shadow: 5px 5px 10px black;
     color: rgb(241, 241, 0);
 
@@ -66,6 +67,7 @@ header > h1 {
 
 header > nav{
     padding: 0px;
+    padding-left: 20px;
 }
 
 nav > a{
@@ -78,6 +80,22 @@ nav > a{
     border: 1px solid var(--cor3);
 }
 
+.tit{
+    font-size: 2.3em;
+}
+
+.sub1{
+    font-size: 1.8em;
+    font-family: var(--font3);
+    padding-top: 15px;
+}
+
+.sub2{
+    font-size: 1.5em;
+    padding-top: 15px;
+    font-family: var(--font3);
+}
+
 a:hover{
     background-color: var(--cor3);
     border: 2px solid var(--cor5);
@@ -87,7 +105,7 @@ a:hover{
 
 main{
     background-color: rgba(255, 255, 255, 0.938);
-    max-width: 1000px;
+    max-width: 900px;
     min-width: 300px;
     margin: auto;
     border-radius: 30px;
